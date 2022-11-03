@@ -10,4 +10,5 @@ Ray Tracing using Python and Inkscape
 ### Numpy
 [Numpy](numpy.org) is a python library that deals with arrays, matrices, and linear algebra among features.
 ### Inkscape software
-[Inkscape](inkscape.org) is a vector graphics software package that will be useful in rendering ray tracing diagrams. 
+[Inkscape](inkscape.org) is a vector graphics software package that will be useful in rendering ray tracing diagrams.
+- We will also need to install inkex (via `pip3 install inkex`).  This is a library that stitches together Python and Inkscape with some functions that will prove essential. 
