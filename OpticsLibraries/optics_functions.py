@@ -56,4 +56,9 @@ def focal_length(diop: float) -> float:
     """
     return flength
 
+def critical_angle():
+    """
+    """
+    return critAngle
+
 
