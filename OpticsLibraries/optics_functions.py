@@ -21,7 +21,7 @@ def refractedAngle(n1: float, n2: float, incident: float) -> float:
     return refracted
 
 
-def wave_velocity(n: float) -> float):
+def wave_velocity(n: float) -> float:
     """
     Calculate the phase velocity given a medium of 
     some refractive index n
