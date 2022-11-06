@@ -21,21 +21,25 @@ def refractedAngle(n1: float, n2: float, incident: float) -> float:
     return refracted
 
 
-def phase_velocity():
+def wave_velocity(n: float) -> float):
     """
     Calculate the phase velocity given a medium of 
     some refractive index n
     """
-    return ph_velocity
+    wave_velocity = 1/n
+    return wave_velocity
 
-def wavelength(n: float, f: float):
+def wavelength(n: float, f: float) -> float:
     """
     Calculate the periodic wavelength of a plane wave in a medium
     of given index and at a specfic frequency
     f in Hz
     returns wavelength in nm
     """
+    wavelength = C/(f*n)
+
     # convert wavelength to nm
+    wavelength = wavelength*10^9
 
     return waveLength
 
