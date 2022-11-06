@@ -63,6 +63,7 @@ def focal_length(diop: float) -> float:
 
 def critical_angle():
     """
+    Calculate the critical angle.
     """
     return critAngle
 
