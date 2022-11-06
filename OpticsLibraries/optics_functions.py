@@ -1,5 +1,6 @@
 from math import radians, degrees, cos, sin, asin
 import numpy as np
+import globals.py as const
 
 def refractedAngle(n1: float, n2: float, incident: float) -> float:
     """
